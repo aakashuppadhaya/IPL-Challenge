@@ -16,7 +16,7 @@ import re
 from sklearn import  linear_model
 #read excel file
 #i have created dataset based on https://www.iplt20.com/teams/ each player stats based on year from 2008 to 2018
-#created 2018 dataset as test and rest year dataset as train used multiple logistic regression model
+#created 2018 dataset as test and rest year dataset as train used multiple linear regression model
 df = pd.read_excel('Train.xlsx')
 df.rename(columns={'Batting and Fielding': 'Year'}, inplace=True)
 
